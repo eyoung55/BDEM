@@ -9,7 +9,7 @@ DIM	= 3
 
 COMP    = gnu
 
-USE_MPI   = FALSE
+USE_MPI   = TRUE
 USE_OMP   = FALSE
 USE_CUDA  = FALSE
 USE_EB    = TRUE
@@ -39,3 +39,4 @@ VPATH_LOCATIONS   += $(BDEM_HOME)/Source/stl_tools
 VPATH_LOCATIONS   += $(BDEM_HOME)/Source/chemistry
 
 include $(AMREX_HOME)/Tools/GNUMake/Make.rules
+

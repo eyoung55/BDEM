@@ -1,0 +1,13 @@
+.*
+!/.gitignore
+
+# Results directories
+plt[0-9]*
+rst[0-9]*
+
+# Error files
+Backtrace*
+
+# Executables
+*.ex
+
